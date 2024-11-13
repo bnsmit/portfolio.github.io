@@ -1,3 +1,5 @@
+
+
 header{
     color:#FFFFFF; 
     background-color:#aa8ba9;
@@ -37,7 +39,9 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
+    padding-bottom: 1em;
     font-size: 1.2em;
+    border-bottom: 3px solid #aa8ba9;
     
 }
 
@@ -54,6 +58,11 @@ h1{
 h2{ 
     color: #aa8ba9;
     font-family: Georgia, "Times New Roman", serif;
+}
+
+h3{
+    color: #7ea3f3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -87,6 +96,10 @@ main ul {
     
 }
 
+.coffee{
+    background-image: url(cooffee.jpg);
+}
+
 
 
 
@@ -104,6 +117,16 @@ main ul {
     nav li{
         border-bottom: none;
     }
+    section{
+        margin-left: 2em;
+        margin-right: 2em;
+        flex: 1;
+    }
+    .jobs{
+        display: flex;
+        flex-direction: row;
+    }
+
 
 }
     

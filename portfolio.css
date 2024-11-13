@@ -176,9 +176,6 @@ footer{
             flex-direction: column;
             padding-top: 1em;
         }
-        .hero{
-            grid-area: hero;
-        }
         header{
             grid-area: header;
         }
@@ -190,15 +187,6 @@ footer{
         }
         footer{
             grid-area: footer;
-        }
-        #wrapper{
-            display: grid;
-            grid-template: 
-                "header header"
-                "nav hero"
-                "nav main"
-                "nav footer"
-                /180px 1fr;
         }
     }
 }

@@ -9,6 +9,13 @@
             <title>Blaire Creations</title>
             <meta charset="utf-8">
 
+            <style>
+                .hidden {
+                    display: none;
+                }
+            </style>
+
+
             <body>
 
                 <header>
@@ -28,12 +35,24 @@
 
 
                 <main>
+                    <button id="photo">Digital Art</button>
+
+                    <div id ="photo-container" class="hidden">
+                        <img src="viktor.jpg" alt="Viktor from Arcane" class="photo" width = "400">
+                        <img src="gma.jpg" alt="My late Grandma and I" class="photo" width = "300">
+                        <img src="blizzard.jpg" alt="Fake Blizzard add" class="photo" width = "300">
+                        <img src="twitch.jpg" alt="OC" class="photo" width = "300">
+                        
+                    </div>
+
+
+                    <script src="designjs.js"></script>
 
                 </main>
 
 
 
-                
+
                 <footer>
                     Copyright &copy; 2024 Blaire Creations
                 </footer>
@@ -41,3 +60,4 @@
             </body>
 
         </head>
+</html>

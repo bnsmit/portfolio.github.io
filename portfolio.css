@@ -131,6 +131,22 @@ footer{
     border-top: 3px solid #aa8ba9;
 }
 
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7ea3f3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    color: #7ea3f3;
+}
+
 
 
 
